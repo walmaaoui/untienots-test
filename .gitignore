@@ -1,2 +1,16 @@
-*.class
+target/
+*/target/
+.idea/
+*.iml
+*.DS_Store
 *.log
+*.classpath
+*.project
+*.settings
+*.mmdb
+*.cache
+.cache-main
+.cache-tests
+*.metadata/
+*.recommenders/
+*/bin/
