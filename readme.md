@@ -75,7 +75,7 @@ Once the job was run, you can consume data from the topic to see it, you can use
 I recommend [conduktor](https://www.conduktor.io/)
 broker host: `localhost:29092`
 
-![Alt text](/screenshots/topic-words?raw=true "topic-words")
+![Alt text](/screenshots/topic-words.png?raw=true "topic-words")
 
 
 ### words-stream-processing
@@ -126,9 +126,9 @@ To run tests
 sbt "project words-stream-processing" test
 ```
 
-![Alt text](/screenshots/file-topic?raw=true "file-topic")
+![Alt text](/screenshots/file-topic.png?raw=true "file-topic")
 
-![Alt text](/screenshots/file-word-topics?raw=true "file-words-topics")
+![Alt text](/screenshots/file-word-topics.png?raw=true "file-words-topics")
 
 
 ### kafka-to-parquet
@@ -160,7 +160,7 @@ To run tests
 sbt "project kafka-to-parquet" test
 ```
 
-![Alt text](/screenshots/files-parquet?raw=true "files-parquet")
+![Alt text](/screenshots/files-parquet.png?raw=true "files-parquet")
 
 
 ### analytics
@@ -210,6 +210,6 @@ This is the output of running all the pipeline on the data in `file-to-kafka/res
 This shows the final result and the dataset schemas. However the values are not very significant, 
 check the unit tests for better examples. 
 
-![Alt text](/screenshots/analytics-output?raw=true "analytics-output")
+![Alt text](/screenshots/analytics-output.png?raw=true "analytics-output")
 
 
